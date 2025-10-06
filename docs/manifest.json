@@ -2,13 +2,13 @@
   "name": "Дiя",
   "short_name": "Дiя",
   "description": "Дiя",
-  "start_url": "/klocker111/",
+  "start_url": "/mollydiya/",
   "display": "standalone",
   "theme_color": "#7bc8c0",
   "background_color": "#7bc8c0",
   "icons": [
     {
-      "src": "/klocker111/icon.png",
+      "src": "/mollydiya/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
