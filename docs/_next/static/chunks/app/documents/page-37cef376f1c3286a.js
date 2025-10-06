@@ -1,6 +1,7 @@
 (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[479],{4260:function(e,s,l){Promise.resolve().then(l.bind(l,6032)),Promise.resolve().then(l.t.bind(l,2972,23))},6032:function(e,s,l){"use strict";l.d(s,{DocumentSlider:function(){return u}});var t=l(7437),a=l(2265),i=l(9397),n=l(8842),c=l(9653),r=l(3462),d=l(6823),x=l(5187);
 
 function o(e){
+  // `index` determines which document type is displayed (0‑3)
   let{index:s}=e,
       // `l` toggles the front/back side of the card
       [l,o]=(0,a.useState)(!1),
@@ -59,18 +60,15 @@ function o(e){
             u?(0,t.jsx)(t.Fragment,{children:
               1===s
                 // Tax card view
-                (0,t.jsxs)("div",{className:"flex flex-col h-full",children:[
-  (0,t.jsx)("div",{className:"mb-6",children:(0,t.jsx)("p",{className:"text-[15px] text-black uppercase",children:"РНОКПП"})}),
-  (0,t.jsxs)("div",{className:"space-y-3 mb-auto",children:[
-    (0,t.jsx)("div",{className:"space-y-0.5",children:u.name.split(" ").map((e,s)=>
-      (0,t.jsx)("p",{className:"text-[17px] font-medium text-black leading-tight",children:e},s)
-    )}),
-    (0,t.jsxs)("div",{children:[
-      (0,t.jsx)("p",{className:"text-[15px] text-black",children:"Дата народження"}),
-      (0,t.jsx)("p",{className:"text-[15px] text-black",children:(() => {
-  const [year, day, month] = u.birthDate.split(".");
-  return `${day}.${month}.${year}`;
-})()})
+                ?(0,t.jsxs)("div",{className:"flex flex-col h-full",children:[
+                    (0,t.jsx)("div",{className:"mb-6",children:(0,t.jsx)("p",{className:"text-[15px] text-black uppercase",children:"РНОКПП"})}),
+                    (0,t.jsxs)("div",{className:"space-y-3 mb-auto",children:[
+                      (0,t.jsx)("div",{className:"space-y-0.5",children:u.name.split(" ").map((e,s)=>(0,t.jsx)("p",{className:"text-[17px] font-medium text-black leading-tight",children:e},s))}),
+                      (0,t.jsxs)("div",{children:[
+                        (0,t.jsx)("p",{className:"text-[15px] text-black",children:"Дата народження"}),
+                        (0,t.jsx)("p",{className:"text-[15px] text-black",children:u.birthDate})
+                      ]})
+                    ]}),
                     // Scrolling notice banner (duplicated – consider extracting)
                     (0,t.jsxs)("div",{className:"relative w-[calc(100%+3rem)] -mx-6 overflow-hidden mt-auto mb-4 h-7",children:[
                       (0,t.jsx)("div",{className:"absolute inset-0 bg-gradient-to-r from-[#90EE90] to-[#87CEEB]",children:(0,t.jsx)("div",{className:"absolute inset-0 bg-gradient-to-r from-[#ffffff10] to-transparent"})}),
