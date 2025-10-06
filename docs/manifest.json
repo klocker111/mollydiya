@@ -2,13 +2,13 @@
   "name": "Дiя",
   "short_name": "Дiя",
   "description": "Дiя",
-  "start_url": "/fsdh32412/",
+  "start_url": "/klocker111/",
   "display": "standalone",
   "theme_color": "#7bc8c0",
   "background_color": "#7bc8c0",
   "icons": [
     {
-      "src": "/fsdh32412/icon.png",
+      "src": "/klocker111/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
