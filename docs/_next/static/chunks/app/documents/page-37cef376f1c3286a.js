@@ -68,12 +68,9 @@ function o(e){
     (0,t.jsxs)("div",{children:[
       (0,t.jsx)("p",{className:"text-[15px] text-black",children:"Дата народження"}),
       (0,t.jsx)("p",{className:"text-[15px] text-black",children:(() => {
-        const [year, month, day] = u.birthDate.split("-");
-        return `${day}.${month}.${year}`;
-      })()})
-    ]})
-  ]})
-]})
+  const [year, day, month] = u.birthDate.split(".");
+  return `${day}.${month}.${year}`;
+})()})
                     // Scrolling notice banner (duplicated – consider extracting)
                     (0,t.jsxs)("div",{className:"relative w-[calc(100%+3rem)] -mx-6 overflow-hidden mt-auto mb-4 h-7",children:[
                       (0,t.jsx)("div",{className:"absolute inset-0 bg-gradient-to-r from-[#90EE90] to-[#87CEEB]",children:(0,t.jsx)("div",{className:"absolute inset-0 bg-gradient-to-r from-[#ffffff10] to-transparent"})}),
